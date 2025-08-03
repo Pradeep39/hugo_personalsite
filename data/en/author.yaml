@@ -1,0 +1,15 @@
+# some information about you
+name: "Pradeep Reddy"
+nickname: "Pradeep"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/Pradeep.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "reddprad@icloud.com"
+  github: pradeep39
+  linkedin: pradeep-reddy-8a04792
+
+# some summary about what you do
+summary:
+  - I build products and platforms at the intersection of Data, Analytics , Machine Learning & Generative AI

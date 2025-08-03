@@ -1,0 +1,95 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: AIML Product Management
+# your company information
+company:
+  name: Apple
+  url: "https://www.apple.com"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I am a Product Leader in AI and Data. I'm passionate about all things Cloud, Data Analytics, ML, AI & Gen AI. An Engineer and Builder at heart."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Pradeep Reddy
+  icon: "fas fa-envelope"
+  url: "reddprad@icloud.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/pradeep39"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/pradeep-reddy-8a04792/"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: "Amazon Web Services Solutions Architect Associate"
+  url: "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-associate"
+  badge: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+- type: certification
+  name: "Machine Learning from Stanford University"
+  url: "https://www.coursera.org/account/accomplishments/verify/SVM7P4SLR47X"
+  badge: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/e8/7cc3d09d3f11e698dfff46d35f2da1/Stanford_Coursera_Logo.png?auto=format%2Ccompress&dpr=2&w=80&h=80"
+
+- type: certification
+  name: "The Open Group Certified: TOGAF® 9 Certified"
+  url: "https://www.credly.com/org/the-open-group/badge/the-open-group-certified-togaf-9-certified"
+  badge: https://images.credly.com/size/680x680/images/24c75efb-9a99-47f7-ab6d-fcd359534c1e/badge-togaf9-certified.png
+  
+- type: certification
+  name: "Six Sigma Green Belt Certified"
+  badge: https://eco-cdn.iqpc.com/eco/images/channel_content/images/sigma_green_belt.png
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Product Strategy
+  percentage: 90
+  color: yellow
+  
+- type: soft-skill-indicator
+  name: Product Design & UX
+  percentage: 85
+  color: orange
+  
+- type: soft-skill-indicator
+  name: Technical Aptitude
+  percentage: 90
+  color: teal
+
+- type: soft-skill-indicator
+  name: Data Analytics
+  percentage: 80
+  color: green
+  
+- type: soft-skill-indicator
+  name: ML / AI / Gen AI
+  percentage: 65
+  color: green
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
